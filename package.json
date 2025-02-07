@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "axios": "^1.7.9",
     "core-js": "^3.8.3",
     "roboto-fontface": "*",
     "vue": "^3.2.13",
+    "vue-router": "^4.5.0",
     "vuetify": "^3.7.9",
     "webfontloader": "^1.0.0"
   },
@@ -29,7 +31,8 @@
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "vue/setup-compiler-macros": true
     },
     "extends": [
       "plugin:vue/vue3-essential",
